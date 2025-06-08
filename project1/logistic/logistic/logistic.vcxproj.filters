@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="graph">
+      <UniqueIdentifier>{956a681d-5d05-4001-803c-ca8a7a74a6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dijkstra">
+      <UniqueIdentifier>{ae97e0fd-38a0-442c-80da-0cd8ebead472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file_manager">
+      <UniqueIdentifier>{d7327fd6-9ff5-4719-8602-7411feea5b46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="graph.cpp">
+      <Filter>graph</Filter>
+    </ClCompile>
+    <ClCompile Include="file_manager.cpp">
+      <Filter>file_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra.cpp">
+      <Filter>dijkstra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graph.h">
+      <Filter>graph</Filter>
+    </ClInclude>
+    <ClInclude Include="file_manager.h">
+      <Filter>file_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="dijkstra.h">
+      <Filter>dijkstra</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
